@@ -1,0 +1,59 @@
+        h1 {
+            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+
+        #Foto-Descrição {
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 35%;
+            left: 35%;
+        }
+
+        body {
+            background-color: rgb(215, 229, 248);
+            padding: 2%;
+        
+        }
+
+        #Descrição > strong {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+
+        .Adaptabilidade {
+            font-size: 16px;
+        }
+
+        .Colaboração {
+            font-size: 18px;
+        }
+
+        .Resiliência {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        ul {
+            line-height: 30px;
+        }
+
+        ul li:nth-child(odd) {
+            background-color: beige;
+        }
+
+
+        #MinhaFoto {
+            float: left;
+            height: 280px;
+            padding: 10px;
+            background-color: honeydew;
+        }
+
+        .image-container {
+            height: 300px;
+            position: relative;
+        }
+
+        
+
+  

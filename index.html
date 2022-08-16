@@ -3,31 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Meu Portfólio Web</title>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <h1>José Diogo Lobato Ribeiro</h1>
-    <hr>
-    <img id="MinhaFoto" src="/fotos/image0.jpeg" alt="Retrato de um homem sorrindo" width="300px">
-    <p>Tarde de sol na lagoa de Barra de São João, RJ</p>
-    <h4><em>Sobre mim:</em></h4>
-    <p id="Descrição"> Me chamo José Diogo Lobato Ribeiro, sou <strong>Brasileiro</strong>, natural de Campos dos Goytacazes, tenho 30 anos de idade e moro na cidade de <strong>Macaé</strong>, Rio de Janeiro. <br>Sou muito centrado e esforçado em todas minhas atividades e objetivos. Acabei de começar minha jornada como estudante de desenvolvimento web na Escola de Programação, Trybe.</p>
+    <div>
+        <h1> José Diogo Lobato Ribeiro</h1>
+        
+        <div class="image-container">
+            <img id="MinhaFoto" src="/fotos/image0.jpeg" alt="Retrato de José Diogo sorrindo" width="250px">
+            <p id="Foto-Descrição"> Registro feito no dia que me tornei estudante de desenvolvimento web na Escola de Programação, Trybe.</p>
+        </div>
+        <h4><em>Sobre mim:</em></h4>
+        <p id="Descrição"> Me chamo José Diogo Lobato Ribeiro, sou <strong>Brasileiro</strong>, natural de Campos dos Goytacazes, tenho 30 anos de idade e moro na cidade de <strong>Macaé</strong>, Rio de Janeiro, conhecida como a capital nacional do petróleo. <br>Sou muito centrado e esforçado em todas minhas atividades e objetivos.</p>
+    </div>
 
     <h4 id="Hab"><em>Minhas habilidades:</em></h4>
     <ul>
-        <li><u>Adaptabilidade</u> - Considero que tenho uma certa facilidade diante de novos cenários e/ou adversidades em diversos ambientes.</li>
-        <li><u>Colaboração</u> - Sempre solícito nas atividades em grupo.</li>
-        <li><strong><u>Resiliência</u> - Me mantém focado no objetivo, me faz ser forte e não pensar em desistir.</strong></li>
+        <li class="Adaptabilidade"><u>Adaptabilidade</u> - Considero que tenho uma certa facilidade diante de novos cenários e/ou adversidades em diversos ambientes.</li>
+        <li class="Colaboração"><u>Colaboração</u> - Sempre solícito nas atividades em grupo.</li>
+        <li class="Resiliência"><u>Resiliência</u> - Me mantém focado no objetivo, me faz ser forte e não pensar em desistir.</li>
     </ul>
     <hr>
     <p id="Blog">Neste trecho compartilho um <a href="https://blog.betrybe.com/" target="_blank">blog</a> no qual recentemente venho consumindo bastante, com muito conteúdo informativo, dicas do mercado de trabalho e novidades na área de tecnologia!</p>  
     
     <h5>Links na página:</h5>
-    <ul><u>
+    <ol>
         <li><a href="#Hab">Habilidades pessoais</a></li>
         <li><a href="#Blog">Meu blog favorito</a></li>
         <li><a href="#Descrição">Quem sou eu?</a></li>
         <li><a href="#MinhaFoto"> Meu Retrato</a></li>
-    </u></ul>
+    </ol>
 
     
 </body>
